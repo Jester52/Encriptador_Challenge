@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Challenge Encriptador</title>
+</head>
+<body>
+    
+    <!-- Encabezado -->
+     <header>
+        <a href="#" rel=""><img src="./imagenes/logo.svg" alt="Logo Alura" class="logo"></a>
+     </header>
+
+     <!-- Sección Principal -->
+
+     <main>
+        <section class="encriptador">
+            <textarea class="encriptada" placeholder="Ingresa el texto aquí" name="" id=""></textarea>
+            <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen Aviso" class="img-aviso">
+                <p class="texto-aviso"> Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">ENCRIPTAR</button>
+                <button type="submit" class="btn-desencriptar">DESENCRIPTAR</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/muñeco.svg" alt="Imagen muñeco" class="img-muñeco">
+                <p class="texto-1">Ningún mensaje fue encontrado</p>
+                <p class="texto-2">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">COPIAR</button>
+        </section>
+     </main>
+
+     <!-- Pie de página --> 
+
+     <footer>
+        <p class="copyright">&copy; Copyright 2024 - Encriptador de texto - Desarrollado por Luis Torres</p>
+        <a href="#" rel=""><img src="./imagenes/linkedin.svg" alt="Logo de Linkedin" class="linkedin"></a>
+        <a href="#" rel=""><img src="./imagenes/github.svg" alt="Logo de Github" class="github"></a>
+     </footer>
+     <script src="./JS/encriptador.js"></script>
+</body>
+</html>
